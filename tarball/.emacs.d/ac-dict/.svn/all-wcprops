@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict
+END
+java-mode
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/java-mode
+END
+python-mode
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/python-mode
+END
+ruby-mode
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/ruby-mode
+END
+c-mode
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/c-mode
+END
+tcl-mode
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/tcl-mode
+END
+clojure-mode
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/clojure-mode
+END
+scheme-mode
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/scheme-mode
+END
+javascript-mode
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/javascript-mode
+END
+php-mode
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/php-mode
+END
+c++-mode
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/c++-mode
+END
+css-mode
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/dahntheboss/emacs/svn/!svn/ver/31/trunk/dot-emacs-mine/ac-dict/css-mode
+END
