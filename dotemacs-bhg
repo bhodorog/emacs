@@ -1,0 +1,5 @@
+(load-file "~/.emacs-bhg/minimal.el")
+(load-file "~/.emacs-bhg/django.el")
+(load-file "~/.emacs-bhg/bhg_python.el")
+(load-file "~/.emacs-for-python/epy-init.el")
+(load-file "~/.emacs-bhg/bhg_ack.el")
