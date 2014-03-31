@@ -1,9 +1,17 @@
+; Marmalade package archive
+(require 'package)
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(package-initialize)
+
 ;; Misc settings
 (transient-mark-mode t)
 (show-paren-mode t)
 (column-number-mode t)
 (setq scroll-step 1)
 (tool-bar-mode -1)
+(menu-bar-mode -1)
 (delete-selection-mode nil)
 (setq inhibit-splash-screen -1)
 (cua-selection-mode t)
@@ -31,12 +39,15 @@
 (defalias 'rof 'recentf-open-files)
 
 (defalias 'eb 'eval-buffer)
-2(defalias 'er 'eval-region)
+(defalias 'er 'eval-region)
 
 (defalias 'hr 'highlight-regexp)
 (defalias 'ur 'unhighlight-regexp)
 
 (defalias 'dtw 'delete-trailing-whitespace)
+;; Alt+0 Alt+r - top of window
+;; Alt+- Alt+r - bottom of window
+
 
 ;; Don't make backup files next to the source, put them in a single place
 (setq backup-directory-alist
@@ -96,13 +107,6 @@
 (add-to-list 'load-path emacs-lib-folder)
 (progn (cd emacs-lib-folder) (normal-top-level-add-subdirs-to-load-path))
 
-; Marmalade package archive
-(require 'package)
-(add-to-list 'package-archives
-    '("marmalade" .
-      "http://marmalade-repo.org/packages/"))
-(package-initialize)
-
 
 ;; -----------------------------------------------------------------------------
 
@@ -111,15 +115,15 @@
 ;; (color-theme-initialize)
 ;; (require 'color-theme-less)
 
-(require 'color-theme)
-(require 'color-theme-monokai)
+;; (require 'color-theme)
+;; (require 'color-theme-monokai)
 (require 'color-theme-solarized)
 ;;(load-theme 'solarized-[light|dark] t)
 
 (if (window-system)
     (progn
       ;; (set-face-attribute 'default nil :font "-unknown-Inconsolata-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1" :height 120)
-      (color-theme-solarized-dark)))
+      (color-theme-solarized-light)))
 
 (add-hook 'after-make-frame-functions
           '(lambda (f)
@@ -127,6 +131,6 @@
                (if (window-system)
                    (progn
                      ;; (set-face-attribute 'default nil :font "-unknown-Inconsolata-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1" :height 120)
-                     (color-theme-solarized-dark))))))
+                     (color-theme-solarized-light))))))
 
 ;; -----------------------------------------------------------------------------

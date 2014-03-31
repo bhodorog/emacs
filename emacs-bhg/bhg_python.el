@@ -7,7 +7,6 @@
             (setq show-trailing-whitespace t)
             (which-function-mode t)
             (outline-minor-mode t)
-            (auto-fill-mode t)
             (interactive) (column-marker-1 80)
             (setq coding-system-for-write 'utf-8)
             ))
